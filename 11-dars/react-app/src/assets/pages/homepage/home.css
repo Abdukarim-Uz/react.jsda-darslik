@@ -1,0 +1,11 @@
+.producst-home{
+    width: 98%;
+    min-height: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+}

@@ -1,0 +1,65 @@
+.login{
+    margin: 0px auto;
+    width: 70%;
+
+    border-radius: 10px;
+    height: 800px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+form{
+    width: 98%;
+
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 98%;
+    gap: 40px;
+}
+
+form > *{
+    padding: 20px;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 15x;
+    background-color: transparent;
+    color: white;
+}
+
+form > *:hover{
+    border: 2px solid green;
+}
+
+form button{
+    color: white;
+    background-color: green;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(5, 173, 5);
+    border: 2px solid rgb(5, 173, 5);
+}
+select option{
+    color: black;
+}
+form img{
+    border: none;
+    border-radius: 20px;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+form img:hover{
+    border: none;
+    transform: scale(1.09);
+
+}

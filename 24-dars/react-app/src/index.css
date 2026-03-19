@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme{
+    --color-white2: rgba(255, 255, 255, 0.093);
+}
+
+.comst{
+    color: rgba(255, 255, 255, 0.263);
+}
+
+.btn{
+    @apply bg-blue-600 w-15 rounded flex items-center justify-center
+}

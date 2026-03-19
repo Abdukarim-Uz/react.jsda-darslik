@@ -1,0 +1,18 @@
+
+.card{
+    max-width: 400px;
+    width: 98%;
+    height: auto;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.card img{
+    max-width: 200px;
+    width: 98%;
+    height: auto;
+    object-fit: cover;
+}

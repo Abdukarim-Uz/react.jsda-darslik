@@ -1,0 +1,10 @@
+.not-found{
+    text-align: center ;
+    font-size: 50px;
+}
+.loader{
+    width: 50%;
+    height: auto;
+    margin: 130px auto;
+    cursor: pointer;
+}

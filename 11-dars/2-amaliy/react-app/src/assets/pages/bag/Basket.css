@@ -1,0 +1,11 @@
+.basket-box {
+    width: 98%;
+    min-height: 400px;
+    height: auto;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}

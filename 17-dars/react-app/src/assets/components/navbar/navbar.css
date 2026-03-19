@@ -1,0 +1,18 @@
+.navbar{
+    max-width: 1441px;
+    width: 98%;
+    height: 100px;
+    border-radius: 20px;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+    gap: 30px;
+    margin: 20px auto;
+}
+a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}

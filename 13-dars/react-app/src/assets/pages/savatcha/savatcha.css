@@ -1,0 +1,456 @@
+.savatcha {
+    max-width: 1600px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.shopping-animation {
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.savatcha h1 {
+    margin-bottom: 10px;
+}
+
+.savatcha p {
+    font-size: 20px;
+}
+
+
+.savatcha button {
+    max-width: 170px;
+    border: none;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 98%;
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.savatcha button:hover {
+    background-color: #d4d3d3;
+}
+
+.savatcha-banner {
+    max-width: 1600px;
+    width: 75%;
+    margin: 20px auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    min-height: 400px;
+    height: auto;
+    cursor: pointer;
+}
+
+.text {
+    width: 100%;
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.h2 {
+    color: #3a3939;
+    font-weight: 500;
+}
+
+.h3 {
+    color: #888888;
+    font-weight: 500;
+}
+
+.mahsulot-haqida {
+    width: 100%;
+    gap: 10px;
+    min-height: 400px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.mahsulot {
+    width: 70%;
+    /* min-height: 300px; */
+    height: auto;
+    /* border: 1.5px solid rgb(230, 230, 230); */
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 30px;
+
+}
+
+.malumot{
+    gap: 40px;
+}
+
+.mahsulot h3 {
+    font-size: 17px;
+    color: #888888;
+}
+
+.kuryer {
+    width: 30%;
+
+    min-height: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.punkt {
+    width: 100%;
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1.5px solid rgb(230, 230, 230);
+    border-radius: 19px;
+}
+
+.kuryer-title {
+    width: auto;
+    height: auto;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+}
+
+.kuryer-title h4 {
+    color: #2e2e2e;
+    font-size: 16px;
+}
+
+.kuryer-title h5 {
+    color: #888888;
+}
+
+.buyurtma {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1.5px solid rgb(230, 230, 230);
+    border-radius: 19px;
+}
+
+.buyurtma-left {
+    width: 40%;
+
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10px;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.buyurtma-soni {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+.son {
+    font-weight: 400;
+}
+
+.truck-icon {
+    width: 24px;
+    fill: #5200af;
+}
+
+.qustion-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.buyurtma-right {
+    width: 40%;
+
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+
+}
+
+
+.narx {
+    font-size: 23px;
+    color: #7700ff;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.tejov {
+    color: rgb(5, 194, 5);
+    font-size: 12px;
+}
+
+.rasmiylashtirish {
+    width: 95%;
+    margin: 0px auto;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #7700ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.rasmiylashtirish:hover {
+    background-color: #7700fffd;
+    opacity: 80%;
+}
+
+.check {
+    width: 98%;
+    margin: 0px auto;
+    border-bottom: 1px solid #888888;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.check-input {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: black;
+}
+
+.malumot {
+    width: 100%;
+
+    height: 219px;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.malumot-text {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.title {
+    width: 100%;
+
+}
+
+.title h4 {
+    font-size: 13px;
+    font-weight: 200;
+    color: #888888;
+}
+
+.title h2 {
+    font-weight: 500;
+    color: #000000;
+}
+
+.img {
+    max-width: 160px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.img img {
+    max-width: 100px;
+    width: 100%;
+    min-height: 110px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img input {
+    width: 18px;
+    height: 18px;
+}
+
+.text-two {
+    max-width: 550px;
+    width: 70%;
+
+    min-height: 111px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-titel {
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-titel h4 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+.text-main {
+    width: 100%;
+
+    height: 69px;
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+
+.text-main-left {
+    padding-top: 10px;
+    width: 30%;
+
+    height: 69px;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-main-left h5 {
+    color: #000000;
+    font-weight: 500;
+}
+
+.xira {
+    color: #888888;
+    font-size: 12px;
+}
+
+.text-main-right {
+    width: 20%;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.malumot-text-right-title {
+    color: #888888;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.trash-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.malumot-text-right-title button {
+    background-color: transparent;
+    max-width: 110px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    font-size: 19px;
+    color: #888888;
+}
+
+.summa {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 600;
+    color: #7700ff;
+    gap: 10px;
+}
+
+
+.card-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.info {
+    position: relative;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-main-right button {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-main-right h5 {
+    color: #888888;
+    font-size: 15px;
+}
+
+.malumot-text-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 20px;
+}

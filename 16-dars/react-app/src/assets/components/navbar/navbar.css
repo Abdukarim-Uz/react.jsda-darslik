@@ -1,0 +1,19 @@
+.navbar {
+    max-width: 1441px;
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    margin: 20px auto;
+}
+a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}

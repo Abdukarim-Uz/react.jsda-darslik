@@ -1,0 +1,215 @@
+.products {
+        max-width: 1441px;
+        width: 100%;
+        min-height: 550px;
+        height: auto;
+        border-radius: 20px;
+        margin: 10px auto;
+        gap: 20px;
+        padding: 35px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.card {
+        max-width: 270px;
+        width: 100%;
+        max-height: 550px;
+        height: 100%;
+        opacity: 1;
+        gap: 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+
+        cursor: pointer;
+}
+
+.img-box {
+        max-width: 270px;
+        width: 100%;
+        max-height: 250px;
+        height: 100%;
+        opacity: 1;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(245, 245, 245, 1);
+        position: relative;
+
+}
+
+
+.img-boxed-size {
+        width: 190px;
+        height: 180px;
+        top: 35px;
+        left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+
+.img-boxed-size img {
+        max-width: 98%;
+        cursor: pointer;
+        transition: 0.3s;
+}
+
+.img-boxed-size img:hover {
+        transform: scale(1.03);
+}
+
+.title {
+        align-self: flex-start;
+        min-width: 140px;
+        width: auto;
+        height: 84px;
+        gap: 8px;
+
+}
+
+.title h1 {
+        min-width: 118px;
+        width: auto;
+        height: 24px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+}
+
+.prices {
+        width: 94px;
+        height: 24px;
+        gap: 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+}
+
+.prices h3 {
+        width: 41px;
+        height: 24px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: rgba(219, 68, 68, 1);
+}
+
+.prices h4 {
+        width: 41px;
+        height: 24px;
+        opacity: 0.5;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-decoration: line-through;
+        color: rgba(0, 0, 0, 1);
+}
+
+.stars {
+        width: 140px;
+        height: 20px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+
+}
+
+.stars h4 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: Bold;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 0.445);
+
+}
+
+.icons {
+        position: absolute;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 15px;
+        right: 10px;
+        width: 34px;
+        height: 76px;
+        gap: 3px;
+}
+
+.like-icon {
+        width: 34px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 100%;
+        transition: 0.3s;
+}
+
+.like-icon:hover{
+        background-color: rgba(219, 68, 68, 1);
+}
+
+
+.eye-icon {
+        width: 34px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 100%;
+        transition: 0.3s;
+        
+}
+
+.eye-icon:hover{
+        background-color: rgba(219, 68, 68, 1);
+}
+.btn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+}
+
+.btn button{
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background-color: rgba(219, 68, 68, 1);
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: 0.3s;
+}
+
+.btn button:hover{
+        background-color: rgba(219, 68, 68, 0.815);
+
+}

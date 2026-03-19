@@ -1,0 +1,126 @@
+.navbar {
+    max-width: 1600px;
+    width: 75%;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.search {
+    padding: 5px;
+    max-width: 600px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.search button {
+    padding: 10px;
+    max-width: 100px;
+    width: 98%;
+    color: #7045ff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8c69ff50;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #8c69ff7e;
+}
+
+.menu {
+    fill: #7045ff;
+}
+
+.search-input {
+    border: 1.5px solid rgb(66, 66, 66);
+    max-width: 450px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-input input {
+    border: none;
+    padding: 5px;
+    width: 80%;
+    font-size: 13px;
+}
+
+.search-input input:focus {
+    border: none;
+    outline: none;
+}
+
+
+.icon-search {
+    width: 20%;
+    background-color: #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+
+}
+
+/* .search-icon {
+    width: 20px;
+    height: 20px;
+} */
+
+.box-hover {
+
+    padding: 7px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    /* width: 100%; */
+}
+
+.box-hover:hover {
+    padding: 7px;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+}
+
+.icons {
+    width: 23px;
+    height: 23px;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+}
+
+.count {
+    padding: 5px;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 3px;
+    background-color: #7045ff;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

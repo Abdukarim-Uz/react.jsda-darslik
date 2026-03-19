@@ -1,0 +1,54 @@
+.users {
+    max-width: 1441px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    margin: 0px auto;
+    padding: 30px;
+
+}
+
+table {
+    width: 60%;
+    min-width: 400px;
+    margin: 20px auto;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-btn {
+    padding: 10px;
+    max-width: 100px;
+    cursor: pointer;
+    width: 100%;
+    background-color: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    background-color: royalblue;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.profile-btn:hover {
+
+    background-color: rgba(65, 105, 225, 0.925);
+}
+.profile-btn:active{
+    transform: scale(0.1);
+}
+
+.profile-icon {
+    fill: white;
+    width: 20px;
+    height: 20px;
+}

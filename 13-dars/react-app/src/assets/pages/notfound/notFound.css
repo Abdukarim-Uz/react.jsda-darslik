@@ -1,0 +1,13 @@
+.notfound {
+    max-width: 1600px;
+    width: 90.0625%;
+    border: 1px solid black;
+    margin: 20px auto;
+
+
+}
+.notfound-icon{
+    max-width: 500px;
+    width: 98%;
+    margin: 20px auto;
+}

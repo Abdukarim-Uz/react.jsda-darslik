@@ -1,0 +1,34 @@
+.card {
+    max-width: 150px;
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.like {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    z-index: 2000;
+}

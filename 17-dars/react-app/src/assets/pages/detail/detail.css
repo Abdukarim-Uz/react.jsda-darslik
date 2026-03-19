@@ -1,0 +1,97 @@
+.detail {
+    max-width: 1441px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 30px;
+    gap: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 500px;
+    height: auto;
+    cursor: pointer;
+}
+
+.detail-left {
+    width: 45%;
+   min-height: 300px;
+   height: auto;
+
+   
+}
+
+.detail-left img{
+    width: 98%;
+    object-fit: cover;
+}
+
+.detail-rigth {
+    padding: 30px;
+    min-height: 400px;
+    height: auto;
+    width: 25%;
+ 
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.detail-rigth h3{
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.detail-rigth h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.shop-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-btn button{
+    max-width: 200px;
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(3, 168, 3);
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.shop-btn button:hover{
+    background-color: rgba(3, 168, 3, 0.849);
+}
+.shop-btn button:active{
+    transform: scale(0.100);
+}
+
+h5{
+    color: white;
+}
+
+.product-count input {
+    padding: 10px;
+}

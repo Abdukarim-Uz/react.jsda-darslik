@@ -1,0 +1,29 @@
+.detail {
+    max-width: 1600px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    align-items: self-start;
+    padding: 20px;
+
+    border: 1px solid wheat;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btns button{
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.icon{
+    width: 20px;
+}

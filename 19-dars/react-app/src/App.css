@@ -1,0 +1,25 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #202020;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: white;
+  font-family: sans-serif;
+}
+a{
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.container-navbar{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}

@@ -1,0 +1,70 @@
+.kinolar {
+    max-width: 1600px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    gap: 30px;
+
+}
+
+.link {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.link img {
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.hidden{
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    top: 0px;
+    left: 0px;
+    transform: translate(50% 50%);
+    background-color: #000000ad;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition: 1.3s ease;
+}
+
+.show-hidden{
+    transform: translate(-50% -50%);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    transition: 1.3s ease;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+
+.hidden-footer{
+    border-radius: 20px;
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    
+    background-color: #000000c4;
+}

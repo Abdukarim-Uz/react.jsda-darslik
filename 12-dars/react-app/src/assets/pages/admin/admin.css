@@ -1,0 +1,95 @@
+.admin{
+  max-width: 1600px;
+  width: 98%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+table{
+  width: 60%;
+  min-width: 400px;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+table,td,th{
+  border: 1px solid royalblue;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+table img{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+table button{
+  background: none;
+  border: none;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.trash{
+  fill: red;
+  width: 20px;
+  height: 20px;
+}
+.edit{
+  fill: royalblue;
+  width: 20px;
+  height: 20px;
+}

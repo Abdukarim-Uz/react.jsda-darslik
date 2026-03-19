@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "2644",
+      "ism": "abdukarim",
+      "yosh": "20",
+      "manzil": "yunusobod",
+      "ball": "60"
+    },
+    {
+      "id": "dc2e",
+      "ism": "abdukarim",
+      "yosh": "30",
+      "manzil": "yunusobod",
+      "ball": "50"
+    },
+    {
+      "id": "cd50",
+      "ism": "abdukarim",
+      "yosh": "140",
+      "manzil": "40",
+      "ball": "49"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,105 @@
+.product {
+    width: 98%;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+form {
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 600px;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+label,
+input {
+    padding: 20px;
+    font-size: 15px;
+    max-width: 400px;
+    width: 98%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+form img {
+    max-width: 300px;
+    width: 98%;
+    border-radius: 30px;
+}
+
+button {
+    max-width: 100px;
+    border-radius: 10px;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    width: 98%;
+    height: auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(6, 189, 6);
+}
+
+.product-card-box {
+    width: 98%;
+    /* border: 1px solid white; */
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.product-card img {
+    max-width: 300px;
+    width: 98%;
+    border-radius: 30px;
+}
+.product-card:hover{
+    transform: scale(1.1);
+    background-color: #ffffff13;
+    backdrop-filter: 300px;
+}
+
+textarea{
+    max-width: 500px;
+    height: auto;
+    width: 98%;
+    padding: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 13px;
+}

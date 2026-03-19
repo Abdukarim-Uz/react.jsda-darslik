@@ -1,0 +1,30 @@
+.navbar {
+    max-width: 1600px;
+    width: 98%;
+    height: 60px;
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: royalblue;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.right-navbar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a.active {
+    position: relative;
+    top: 0.1px;
+    left: 0.1px;
+    color: aqua;
+    text-decoration: underline;
+    transition: 0.2s linear;
+    font-size: 30px;
+}

@@ -1,0 +1,93 @@
+.detail {
+    max-width: 1600px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.detail h4{
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.detail-left {
+    width: 70%;
+    min-height: 200px;
+    height: auto;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-left img {
+    max-width: 600px;
+    border-radius: 40px;
+    
+}
+
+.detail-right {
+    width: 30%;
+    min-height: 200px;
+    height: auto;
+    border-radius: 5px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nom {
+    width: 50%;
+    height: 50%;
+
+    padding: 10px;
+}
+
+.davlati {
+    width: 50%;
+
+    padding: 10px;
+    height: 50%;
+}
+.info{
+    padding: 10px;
+    width: 100%;
+    height:50%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.btns{
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btns button{
+    padding: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.trash{
+    width: 25px;
+    height: 25px;
+    fill: red;
+    cursor: pointer;
+}
+.edit{
+    fill: royalblue;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

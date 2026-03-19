@@ -1,0 +1,36 @@
+.add-form{
+    max-width: 500px;
+    width: 98%;
+    height: auto;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 70px auto;
+    border-radius: 20px;
+    gap: 30px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+
+.add-form:hover{
+    background-color: #444444;
+    transform: scale(1.1);
+}
+
+input,button,select{
+    padding: 20px;
+    max-width: 200px;
+    height: auto;
+    font-size: 13px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+h1{
+    margin-bottom: 30px;
+}

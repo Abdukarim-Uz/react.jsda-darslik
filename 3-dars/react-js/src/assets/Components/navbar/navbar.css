@@ -1,0 +1,12 @@
+.navbar{
+    width: 98%;
+    height: 80px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

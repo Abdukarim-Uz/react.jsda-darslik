@@ -1,0 +1,90 @@
+
+
+.swiper {
+  max-width: 1600px;
+  width: 98%;
+  height: 900px;
+  margin-bottom: 40px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-image: url("https://hoverair.com/cdn/shop/articles/8k-blog-cover_1920.jpg?v=1762497654");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url("https://www.popsci.com/wp-content/uploads/2024/01/31/Samsung-QN900C-What-Is-8K-Resolution-header.jpg?quality=85");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-image: url("https://i.ytimg.com/vi/jhooLmTq4MM/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-image: url("https://dhfczbzvtn6lt.cloudfront.net/wp-content/uploads/2023/03/blog_2023_0_sterescopic_video.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-image: url("https://maectech.com/cdn/shop/articles/insta360-x4-air-8k-360-camera-blog-featured.webp?v=1761817172&width=1500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-image: url("https://www.shutterstock.com/image-photo/professional-youtuber-influencer-working-home-260nw-2569501137.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.swiper-slide:nth-child(7n) {
+  background-position: center;
+  background-image: url(" https://static.vecteezy.com/system/resources/thumbnails/071/391/317/small/content-creator-excited-about-newly-launched-wireless-mouse-feeling-impressed-by-high-quality-sensitivity-joyful-man-trying-out-office-computer-peripheral-filming-using-smartphone-on-tripod-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-image: url(" https://phrozen3d.com/cdn/shop/articles/Blog_Top_Banner_350f4cc6-0d7d-43ac-ac2c-51b8acd38311.jpg?v=1640828483");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-position: center;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-image: url("https://t3.ftcdn.net/jpg/15/28/88/94/360_F_1528889434_zqSecpJY6hfmbwoIZUekxWLCPuikGPH2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-image: url("https://bitsacard.com/blog/wp-content/uploads/2020/08/TV-8K.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,88 @@
+/* Asosiy konteyner */
+.login {
+    width: 90%;
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 20px auto; /* markazga joylash */
+    padding: 40px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* biroz soyali ko‘rinish */
+    background-color: #1a1a1a; /* orqa fon (xohlovchi rang) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form */
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 30px;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    /* background-color: #222; formning fon rangi */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Formdagi rasm */
+form img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+form img:hover {
+    transform: scale(1.05);
+}
+
+/* Kichik ekranlar uchun */
+@media (max-width: 768px) {
+    .login {
+        padding: 20px 10px;
+        min-height: 400px;
+    }
+
+    form {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    form img {
+        width: 100%;
+    }
+}
+
+
+form input,select{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+form select:hover{
+    border: 1px solid green;
+}
+form input:hover{
+    border: 1px solid green;
+}
+
+
+form button{
+    padding: 10px;
+    max-width: 200px;
+    width: 98%;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background-color: rgb(0, 179, 0);
+}

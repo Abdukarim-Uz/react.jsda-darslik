@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --breakpoint-320: 320px;
+  --breakpoint-600: 600px;
+  --breakpoint-960: 960px;
+  --breakpoint-1600: 1600px;
+  --color-figma-color1: rgba(64, 84, 249, 1);
+  --color-figma-color2: rgba(38, 38, 38, 1);
+  --color-figma-color3: rgba(238, 244, 255, 1);
+  --color-figma-color4: rgba(59, 59, 59, 1);
+  --color-figma-color5: rgba(255, 240, 191, 1);
+  --color-figma-color6: rgba(64, 84, 249, 1);
+  --color-figma-color7: rgba(238, 244, 255, 1);
+  --color-figma-color8: rgba(201, 224, 250, 1);
+  --color-figma-color9: rgba(255, 240, 191, 1);
+  --color-figma-color10: rgba(244, 225, 163, 1);
+  --color-figma-color11: rgba(255, 221, 118, 1);
+  --color-figma-color12: rgba(209, 133, 44, 1);
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+.harakat {
+  animation-name: aylan;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-duration: 6s;
+}
+
+@keyframes aylan {
+  0% {
+    transform: rotateZ(-90deg);
+  }
+
+  100% {
+    transform: rotateZ(140deg);
+
+  }
+}
+
+.harakat1 {
+  animation-name: aylan;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-duration: 6s;
+}
+
+@keyframes aylan {
+  0% {
+    transform: rotateZ(-50deg);
+  }
+
+  100% {
+    transform: rotateZ(100deg);
+
+  }
+}
+
+.harakat2 {
+  animation-name: aylan;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-duration: 6s;
+}
+
+@keyframes aylan {
+  0% {
+    transform: rotateZ(-80deg);
+  }
+
+  100% {
+    transform: rotateZ(180deg);
+
+  }
+}
+
+.harakat3 {
+  animation-name: aylan;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-duration: 6s;
+}
+
+@keyframes aylan {
+  0% {
+    transform: rotateZ(-20deg);
+  }
+
+  100% {
+    transform: rotateZ(100deg);
+
+  }
+}

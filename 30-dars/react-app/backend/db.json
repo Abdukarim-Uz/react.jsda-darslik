@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "ism": "abdukarim",
+      "yosh": "19",
+      "nomer": "+998 45 345 64 34",
+      "manzil": "40",
+      "ish": "mobile",
+      "id": "1028"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+:root {
+  --primary: #3b82f6;
+  --primary-glow: rgba(59, 130, 246, 0.5);
+  --accent: #a855f7;
+  --bg: #030712;
+  --glass: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: white;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* --- NAVBAR DIZAYNI --- */
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 50px;
+  z-index: 1000;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 800;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #94a3b8;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Hover holati: Rang o'zgarishi */
+.nav-links a:hover {
+  color: white;
+}
+
+/* Hover holati: Pastki chiziq chiqishi */
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-btn {
+  background: white;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s transform;
+}
+
+/* Tugma Hover: Kattalashish va soya */
+.nav-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--primary-glow);
+}
+
+/* --- HERO SECTION --- */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+/* Sarlavha uchun stil va animatsiyalar */
+.hero h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  /* Moslashuvchan shrift hajmi */
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+
+  /* Gradent matn stili */
+  background: linear-gradient(90deg, #3b82f6, #a855f7, #3b82f6);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animatsiyalarni qo'llash */
+  animation:
+    slideUpFade 1s ease-out forwards,
+    /* Paydo bo'lish animatsiyasi */
+    gradientMove 3s linear infinite;
+  /* Rang o'zgarishi animatsiyasi */
+
+  /* Boshlang'ich holat (slideUpFade uchun) */
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* 1. Paydo bo'lish va yuqoriga ko'tarilish animatsiyasi */
+@keyframes slideUpFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 2. Gradient ranglarini harakatlantirish animatsiyasi */
+@keyframes gradientMove {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.hero p {
+  color: #94a3b8;
+  max-width: 600px;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.main-btn {
+  padding: 18px 45px;
+  font-size: 18px;
+  background: linear-gradient(45deg, var(--primary), var(--accent));
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.main-btn:hover {
+  letter-spacing: 1px;
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.4);
+  transform: translateY(-3px);
+}
+
+/* Products.css */
+.products-container {
+  padding: 120px 8% 60px;
+  background: radial-gradient(circle at 50% -20%, #1e293b, #030712);
+  min-height: 100vh;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Mahsulot kartasi */
+.product-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 20px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
+}
+
+/* Karta ustiga kelganda (Hover) */
+.product-card:hover {
+  transform: translateY(-15px) scale(1.02);
+  border-color: rgba(59, 130, 246, 0.5);
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Rasm joylashuvi */
+.image-container {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(45deg, #1e293b, #334155);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mahsulot rasmi uchun "Neon yorug'lik" */
+.product-card:hover .image-container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, transparent 70%);
+}
+
+.product-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f8fafc;
+}
+
+.product-info p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.price-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+.add-to-cart {
+  background: transparent;
+  border: 1px solid #3b82f6;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.add-to-cart:hover {
+  background: #3b82f6;
+  box-shadow: 0 0 15px #3b82f6;
+}
+
+/* Karta burchagidagi kichik yaltiroq effekt */
+.card-shimmer {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 50%;
+  height: 300%;
+  background: linear-gradient(to right,
+      transparent,
+      rgba(255, 255, 255, 0.05),
+      transparent);
+  transform: rotate(45deg);
+  transition: 0.8s;
+}
+
+.product-card:hover .card-shimmer {
+  top: 100%;
+  left: 100%;
+}

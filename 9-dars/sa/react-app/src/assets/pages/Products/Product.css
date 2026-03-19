@@ -1,0 +1,43 @@
+.product {
+    padding: 20px;
+    gap: 30px;
+    width: 98%;
+    border: 1px solid white;
+    border-radius: 10px;
+    min-height: 400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.card {
+    max-width: 400px;
+    width: 98%;
+    border: 1px solid white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.card img {
+
+    border-radius: 20px;
+    max-width: 400px;
+    width: 98%;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+}
+
+.card img:hover {
+    transform: scale(1.03);
+}
+
+.card h1{
+    font-size: 15px;
+    align-self: flex-start;
+}

@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer{
+  .btn{
+    @apply border p-2 rounded cursor-pointer 
+  }
+}

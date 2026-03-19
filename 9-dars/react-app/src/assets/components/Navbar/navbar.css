@@ -1,0 +1,24 @@
+.navbar{
+    width: 98%;
+    background-color: royalblue;
+    padding: 30px;
+    border-radius: 10px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: sans-serif; 
+  
+}
+
+.navbar a.active{
+    font-weight: bold;
+    text-decoration: underline;
+}

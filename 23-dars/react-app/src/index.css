@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --color-color1: rgba(38, 38, 38, 1);
+    --color-color2: rgba(242, 246, 252, 1);
+    --color-color3: rgba(64, 84, 249, 1);
+    --font-fonts: sans-serif;
+    --font-font1: "Roboto", sans-serif;
+}
+
+
+.ctyle {
+    @apply border rounded-md p-2 cursor-pointer bg-emerald-800  w-30 h-16 
+}

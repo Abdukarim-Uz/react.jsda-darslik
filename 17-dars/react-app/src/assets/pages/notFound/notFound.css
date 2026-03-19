@@ -1,0 +1,9 @@
+.not-found{
+    max-width: 1441px;
+    width: 100%;
+    margin: 60px auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

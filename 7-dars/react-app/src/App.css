@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px 60px;
+    background-color: #15141a;
+}
+div{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 98%;
+}
